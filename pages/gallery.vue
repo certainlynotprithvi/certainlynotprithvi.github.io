@@ -1,16 +1,16 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div>
+  <div class="">
     <blog-header />
-    <landing-content/>
+    <gallery/>
   </div>
 </template>
 
 <script>
 import BlogHeader from "../components/BlogHeader.vue";
-import LandingContent from '../components/LandingContent.vue';
+import Gallery from '../components/Gallery.vue';
 export default {
-  components: { BlogHeader, LandingContent },
+  components: { BlogHeader, Gallery,  },
 };
 </script>
 
